@@ -1,2 +1,13 @@
-# CodeWars-
-Goal is to do at least 1 Code Wars Challenge A day
+# CodeWars 
+Goal is to do at least 1 Code Wars Challenge A day and save them in this repository to track my progress!
+
+## What is Codewars.com?
+Codewars is where developers achieve code mastery through challenges. We train on "kata" in the dojo and gain ranks based on the amount completed. 
+
+## Rank System
+![](https://github.com/DashlinS/DashlinS/blob/master/images/codewars%20levels.png)
+
+It starts at 8 kyu being beginner rank towards 1 kyu being Master level.
+
+## My Current rank
+![](https://github.com/DashlinS/DashlinS/blob/master/images/codewarslevel.png)
