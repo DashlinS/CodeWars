@@ -9,5 +9,8 @@ Codewars is where developers achieve code mastery through challenges. We train o
 
 It starts at 8 kyu being beginner rank towards 1 kyu being Master level.
 
-## My Current rank
+## My Current Rank
 ![](https://github.com/DashlinS/DashlinS/blob/master/images/codewarslevel.png)
+
+# Javascript Challenges
+[Javascript](https://github.com/DashlinS/CodeWars-/tree/master/Javascript)
