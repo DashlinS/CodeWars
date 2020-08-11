@@ -8,7 +8,7 @@ replace method used
 .replace(/\s/g,'')
 */
 
-function noSpace(x){
+function noSpace(x) {
   str = (x);
 return str.replace(/\s/g,'');
 }
