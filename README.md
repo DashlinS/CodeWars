@@ -1,5 +1,5 @@
 # CodeWars 
-Goal is to try at least 1 Code Wars Challenge A day and save them in this repository to track my progress!
+This repository serves to document my code wars progress and challenges!
 
 ## What is Codewars.com?
 Codewars is where developers achieve code mastery through challenges. We train on "kata" in the dojo and gain ranks based on the amount completed. 
