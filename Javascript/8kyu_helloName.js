@@ -9,6 +9,7 @@ hello "john"   => "Hello, John!"
 hello "aliCE"  => "Hello, Alice!"
 hello          => "Hello, World!" # name not given
 hello ''       => "Hello, World!" # name is an empty String
+
 */
 
 function hello(name) {
