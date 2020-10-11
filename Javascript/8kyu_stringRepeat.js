@@ -5,10 +5,10 @@
 
 //Used str.repeat() function
 
-function repeatStr(n, s) {
+function repeatStr (n, s) {
   
-let (s) = string;
-let string.repeat(n);
-return.toString(s);
+  var str = s;
+  result = str.repeat(n);
+  return result;
   
-  }
+}
