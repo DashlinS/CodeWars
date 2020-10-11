@@ -8,3 +8,9 @@ Input: 145263 Output: 654321
 
 Input: 123456789 Output: 987654321
 */
+function descendingOrder(n){
+  //... 
+  let newe = n + '';
+  n = newe.split('').sort().reverse().join('') ;
+  return parseInt(n);
+}
