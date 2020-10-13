@@ -11,3 +11,13 @@ min([42, 54, 65, 87, 0]) returns 0
 
 You may consider that there will not be any empty arrays/vectors.
 */
+
+var min = function(list){
+    let minList = list.sort((a,b) => a-b);
+    return minList[0];
+}
+
+var max = function(list){
+    let maxList = list.sort((a,b) => a-b).reverse();
+    return maxList[0];
+}
