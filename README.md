@@ -12,5 +12,5 @@ It starts at 8 kyu being beginner rank towards 1 kyu being Master level.
 ## My Current Rank
 ![](https://github.com/DashlinS/DashlinS/blob/master/images/badge.png)
 
-# Javascript Challenges
+# Challenges
 [Javascript](https://github.com/DashlinS/CodeWars-/tree/master/Javascript)
