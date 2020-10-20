@@ -15,3 +15,18 @@ warnTheSheep(["sheep", "sheep", "sheep", "wolf", "sheep"]) === "Oi! Sheep number
 
 warnTheSheep(["sheep", "sheep", "wolf"]) === "Pls go away and stop eating my sheep"
 */
+
+function warnTheSheep(queue) {
+  
+//find index of wolf
+  let originalWolf = queue.indexOf('wolf');
+//cut wolf and every sheep after out and make newArray
+  let newArray = queue.splice(originalWolf);
+  
+  if(newArray.length-1){
+  return `Oi! Sheep number ${newArray.length-1}! You are about to be eaten by a wolf!`;
+}
+  else {
+  return 'Pls go away and stop eating my sheep'
+  }
+}
