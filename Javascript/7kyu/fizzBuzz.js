@@ -12,3 +12,24 @@ C# method calling example:
 string[] result = FizzBuzz.GetFizzBuzzArray(3); // => [ "1", "2", "Fizz" ]
 */
 
+function fizzbuzz(n){
+
+  if (n % 15 == 0){
+    return ('fizzify')
+  }
+  else if (n % 3 == 0){
+    return ("Fizz")
+  }
+  else if (n % 5 == 0){
+    return ("Buzz")
+  }
+   else {
+     return n;
+    }
+  }
+
+function fizzbuzz(n) {
+  var array = [];
+  for (var i = 1; i <= n; i++) array.push(fizzify(i));
+  return array;
+}
