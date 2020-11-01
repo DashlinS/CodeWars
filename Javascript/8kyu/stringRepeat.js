@@ -12,3 +12,6 @@ function repeatStr (n, s) {
   return result;
   
 }
+
+// Refactored 
+let repeatStr = (n, s) => s.repeat(n)
