@@ -12,10 +12,7 @@ number(["a", "b", "c"]) // => ["1: a", "2: b", "3: c"]
 */
 
 var number=function(array){
-  for(let i = 0; i < array.length; i++){
-    return array.map((item,index) => `${index + 1}` + ': ' + `${item}`)
-  }
-  return array
+ return array.map((item,index) => `${index + 1}` + ': ' + `${item}`)
 }
 
 // One Line
