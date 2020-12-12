@@ -22,3 +22,5 @@ String.prototype.isUpperCase = function() {
     return false;
   }
 }
+
+String.prototype.isUpperCase = function() {return this == this.toUpperCase()}
