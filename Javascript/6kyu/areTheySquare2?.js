@@ -7,7 +7,7 @@ Your function should return true if all elements are square numbers and false if
 
 An entirely empty array should return undefined.
 
-You can assume that all array elements will be positive integers.
+You can assume that all array elements will be positive integers..
 */
 
 var isSquare = function(arr){
