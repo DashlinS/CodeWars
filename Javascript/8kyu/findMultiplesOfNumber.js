@@ -13,3 +13,6 @@ function findMultiples(integer, limit) {
   }
   return arr.filter(x => x % integer === 0)
 }
+
+
+let findMultiples = (integer, limit) => [...Array(limit+1).keys()].filter(x => x % integer === 0 && x !== 0)
