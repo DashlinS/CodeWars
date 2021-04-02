@@ -7,6 +7,5 @@ The input string will only consist of lower case letters and/or spaces.
 */
 
 function getCount(str) {
-  let vowelsCount = str.match(/[aeiou]/g)
-  return vowelsCount ? vowelsCount.length : 0;
+  let count = str.match(/[aeiou]/g) => count ? count.length : 0;
 }
