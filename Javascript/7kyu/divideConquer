@@ -1,0 +1,14 @@
+/*
+Given a mixed array of number and string representations of integers, add up the non-string integers and subtract the total of the string integers.
+
+Return as a number.
+
+*/
+
+function divCon(x){
+  let counter = 0;
+  for(let i = 0; i < x.length; i++){
+    typeof x[i] == 'number' ? counter += x[i] : counter -= x[i]
+  }
+  return counter
+}
