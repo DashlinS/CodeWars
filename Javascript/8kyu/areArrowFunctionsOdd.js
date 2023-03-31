@@ -5,3 +5,4 @@ Time to test your basic knowledge in functions! Return the odds from a list:
 [2, 4, 6]        -->  []
 
 */
+let odds = (values) => values.filter(values => values % 2 !== 0);
