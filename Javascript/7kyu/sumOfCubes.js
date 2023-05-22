@@ -9,3 +9,7 @@ Examples: (Input --> output)
 3 --> 36 (sum of the cubes of 1, 2, and 3 is 1 + 8 + 27)
 
 */
+
+function sumCubes(n){
+ return Array.from({length: n}, (_, i) => i + 1).reduce((a, b) => a + Math.pow(b, 3))
+}
