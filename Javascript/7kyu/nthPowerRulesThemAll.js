@@ -8,3 +8,7 @@ Examples
 {1, 2}, 5     -->  (1^5 + 2^5) - (1 + 2)             -->  33 - 3  -->  30
 */
 
+function modifiedSum(a, n) {
+  let reduce = a.reduce((a, b) => a + b, 0);
+  return a.reduce((acc, cur) => acc + Math.pow(cur, n), 0) - reduce
+}
